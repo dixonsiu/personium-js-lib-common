@@ -1,0 +1,41 @@
+{
+    "title": "MyBoard",
+    "navbar": {
+        "readAnotherBoard": {
+            "title": "Read another",
+            "panelHeader": "Read another MyBoard",
+            "description": "List of MyBoard which you have read permissions",
+            "btn": "Read"
+        },
+        "sendReadPermissionRequest": {
+            "title": "Read more",
+            "panelHeader": "Add another MyBoard",
+            "description": "List of MyBoard which you can ask for read permission",
+            "btn": "Send"
+        },
+        "readPermissionStatus": {
+            "title": "Read by",
+            "panelHeader": "Read permission management",
+            "description": "List of MyBoard owners which you have granted read permissions"
+        }
+    },
+    "sessionExpiredDialog": {
+        "title": "Session Expired",
+        "action": "MyBoard will be terminated.",
+        "btnOk": "OK"
+    },
+    "irrecoverableErrorDialog": {
+        "title": "Terminating MyBoard ..."
+    },
+    "readRequestTarget": "MyBoard",
+    "readRequestBodyTarget": "board (MyBoard)",
+    "msg": {
+        "info": {
+            "writeSomething": "Write something."
+        },
+        "error": {
+            "noWritePermission": "No write permission for this board.",
+            "failedToWrite": "Failed to write to this board."
+        }
+    }
+}
